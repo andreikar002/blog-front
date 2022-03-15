@@ -1,0 +1,82 @@
+.publications {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  align-items: center;
+  color: black;
+  width:100%;
+  &-title{
+    font-size: 2em;
+    color:black;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+  }
+  .search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 2em;
+  }
+}
+.publication{
+  border: 2px solid blue;
+  border-radius: 1em;
+  width: 80%;
+  padding: 1em;
+ 
+  &-title{
+    font-size: 1.5em;
+    color:black;
+  }
+  &-container{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5em;
+  }
+  &-content{
+    color:black;
+    font-size: 1em;
+  }
+  &-author{
+    color:black;
+    font-size: 1.2em;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+}
+.creating{
+  padding-top: 2em;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  &-form{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    grid-gap:1em;
+    padding-bottom: 2em;
+  }
+  &-content{
+    height: 15em;
+    color: black;
+    font-size: 1em;
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+  }
+}
+body{font-size: 1em;}
+@media screen and (max-width: 1024px){
+    body{font-size: 0.8em;}
+}

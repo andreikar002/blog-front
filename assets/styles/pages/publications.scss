@@ -1,0 +1,11 @@
+.publications{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    color: white;
+    
+    &-title{
+        font-size: 30px;
+
+    }
+}
